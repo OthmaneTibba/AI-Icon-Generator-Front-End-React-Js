@@ -1,26 +1,17 @@
 import styled from "styled-components";
-import img1 from  '../assets/1.png';
-import img2 from  '../assets/2.png';
-import img3 from  '../assets/3.png';
-import img4 from  '../assets/4.png';
-import img5 from  '../assets/5.png';
-import img6 from  '../assets/6.png';
-import img7 from  '../assets/Metallic.png';
-import img8 from  '../assets/Textured.png';
+import img1 from "../assets/1.png";
+import img2 from "../assets/2.png";
+import img3 from "../assets/3.png";
+import img4 from "../assets/4.png";
+import img5 from "../assets/5.png";
+import img6 from "../assets/6.png";
+import img7 from "../assets/Metallic.png";
+import img8 from "../assets/Textured.png";
 import AI_Image from "./AI-Image";
 import { AiOutlineCheckCircle } from "react-icons/ai";
 
 const Content = () => {
-  const imagesList = [
-    img1,
-    img2,
-    img3,
-    img4,
-    img5,
-    img6,
-    img7,
-    img8,
-  ];
+  const imagesList = [img1, img2, img3, img4, img5, img6, img7, img8];
 
   return (
     <SContent>
@@ -36,16 +27,13 @@ const Content = () => {
         <div className="get-started">
           <button>Get started</button>
 
-          <p>5$ for 200 credits 🥰</p>
+          <p>Free 🥰</p>
         </div>
         <h2>What you benifit of using owr tool ?</h2>
         <div className="features">
           <div className="feature">
             <SAiOutlineCheckCircle />
             <h4>fast delivery in less than 1 minute </h4>
-
-
-            
           </div>
           <div className="feature">
             <SAiOutlineCheckCircle />
@@ -82,16 +70,14 @@ const SContent = styled.section`
   h1 {
     margin-top: 45px;
     color: white;
-  
+
     font-weight: 900;
-  
+
     opacity: 0.8;
     font-size: 2.5rem;
     text-align: start;
-  
+
     width: 80%;
-  
-  
   }
 
   p {
@@ -99,7 +85,6 @@ const SContent = styled.section`
     color: gray;
     font-weight: 300;
     font-size: 1.2rem;
-    
   }
   h2 {
     color: white;
@@ -154,8 +139,6 @@ const SContent = styled.section`
     h1 {
       font-size: 2rem;
       width: 100%;
-      
-      
     }
   }
 
